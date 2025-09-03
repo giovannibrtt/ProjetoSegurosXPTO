@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FAFB"
+    android:backgroundTint="#F9FAFB"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="16dp"
+        android:background="?android:attr/fastScrollPreviewBackgroundRight"
+        android:backgroundTint="#F3F4F6"
+        android:hint="Teste Teste"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:id="@+id/editTextEmail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="Text"
+        android:background="#F3F4F6"
+        android:hint="Teste Teste"
+        android:inputType="numberPassword"
+        android:padding="16dp"
+        android:id="@+id/editTextSenha"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#4F46E5"
+            android:padding="16dp"
+            android:text="Login"
+            android:id="@+id/buttonLogin"/>
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#4F46E5"
+            android:padding="16dp"
+            android:text="Cadastro"
+            android:id="@+id/buttonCadastro"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
