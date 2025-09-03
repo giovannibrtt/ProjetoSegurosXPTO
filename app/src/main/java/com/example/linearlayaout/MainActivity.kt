@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                 var intent = Intent(this,MainActivity2::class.java)
                 startActivity(intent)
             }else{
-                Toast.makeText(this,"Vc moraria nessa casa?",Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"Senha ou e-mail incorretos",Toast.LENGTH_LONG).show()
             }
         }
         btnCadastro.setOnClickListener{
